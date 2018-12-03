@@ -1,0 +1,46 @@
+.booksWrapper{
+    .searchContainer{
+        margin: 20px 0;
+    }
+    .search-box{
+        width: 300px;
+        height: 35px;
+    }
+
+    .back{
+        display: inline-block;
+        margin-left: 10px;
+    }
+
+        ul{
+            padding-left: 0;
+            li{
+                display: inline;
+                padding: .75rem 1.5rem;
+                font-size: 1.25rem;
+                line-height: 1.5;
+                cursor: pointer;
+            }
+        }
+
+    .page-link{
+        -webkit-user-select: none;  /* Chrome all / Safari all */
+        -moz-user-select: none;     /* Firefox all */
+        -ms-user-select: none;      /* IE 10+ */
+        user-select: none; 
+        display: inline;
+    }
+    .disabled{
+        cursor: default;
+    }
+    .table tbody{
+        tr:nth-child(odd) {background-color: #f2f2f2;}
+    }
+    .table td, .table th{
+        padding: 1.75em;
+    }
+    .pagination{
+        display: inline-flex;
+        margin-top: 2%;
+    }
+}
